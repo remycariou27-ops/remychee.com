@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh auth *)",
+      "Bash(echo \"---EXIT: $?---\")",
+      "Bash(git -C \"C:/Users/remyc/Desktop/Site\" status)",
+      "Bash(gh --version)",
+      "Bash(git --version)",
+      "Bash(py --version)",
+      "PowerShell($node = \\(Get-Command node -ErrorAction SilentlyContinue\\); if \\($node\\) { node --version } else { \"no node\" }; $npx = \\(Get-Command npx -ErrorAction SilentlyContinue\\); if \\($npx\\) { \"npx ok\" } else { \"no npx\" }; $py = \\(Get-Command python -ErrorAction SilentlyContinue\\); if \\($py\\) { python --version } else { \"no python\" })"
+    ]
+  }
+}
